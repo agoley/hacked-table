@@ -1,0 +1,42 @@
+// @import '~@angular/material/theming'; //Define Mixin for custom components
+
+// @mixin hacked-table-theme($theme) {
+//     $primary: map-get($theme, primary);
+//     $accent: map-get($theme, accent);
+//     $warn: map-get($theme, warn);
+//     $background: map-get($theme, background);
+//     $foreground: map-get($theme, foreground);
+//     .hacked-table-col-header {
+//         font-size: 12px;
+//         color: mat-color($foreground, secondary-text);
+//     }
+//     .secondary {
+//         color: mat-color($foreground, secondary-text);
+//     }
+//     .clickable {
+//         &:hover {
+//             color: mat-color($accent);
+//             cursor: pointer;
+//         }
+//     }
+//     .hacked-table-icon-cell {
+//         i {
+//             &:hover {
+//                 color: mat-color($accent);
+//                 cursor: pointer;
+//             }
+//         }
+//     }
+//     .hacked-table-col-sort-down {
+//         &:hover {
+//             color: mat-color($accent);
+//             cursor: pointer;
+//         }
+//     }
+//     .hacked-table-col-sort-up {
+//         &:hover {
+//             color: mat-color($accent);
+//             cursor: pointer;
+//         }
+//     }
+// }
